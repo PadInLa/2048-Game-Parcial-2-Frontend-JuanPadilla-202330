@@ -1,0 +1,113 @@
+body {
+  background-color: #faf8ef;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 0.7;
+  color: #776e65;
+  margin: 0px;
+}
+
+.container {
+  width: 468px;
+  margin-top: 30px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between; /* Space elements horizontally */
+  align-items: center; /* Center-align vertically */
+  margin-bottom: 20px;
+}
+
+.buttonandscore-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex; /* Align scores to the right */
+}
+
+.scores {
+  display: flex;
+  flex-direction: row; /* Stack scores vertically */
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 456px;
+  height: 456px;
+  background-color: #bbada0;
+  border: 7px solid #bbada0;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.grid div {
+  width: 100px;
+  height: 100px;
+  margin: 7px;
+  border-radius: 3px;
+  background-color: #eee4da;
+  color: #afa192;
+  font-weight: bold;
+  text-align: center;
+  justify-self: center;
+  font-size: 40px;
+  line-height: 2.5;
+}
+
+.no-highlight {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.score-container {
+  text-align: center;
+  margin: 5px 0 0 0;
+  width: 120px;
+  height: 60px;
+  border-radius: 3px;
+  background-color: #bbada0;
+  color: #ffffff;
+}
+
+.best-score-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 0 0 5px;
+  width: 120px;
+  height: 60px;
+  border-radius: 3px;
+  background-color: #bbada0;
+  color: #ffffff;
+  text-align: center; /* Center-align the text */
+}
+
+#score,
+#best-score {
+  font-size: 30px;
+}
+
+.score-title {
+  font-size: 16px;
+}
+
+#reset-button {
+  background-color: #8f7a66;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 300ms;
+}
+
+#reset-button:hover {
+  background-color: #776e65; /* Change color on hover */
+}
